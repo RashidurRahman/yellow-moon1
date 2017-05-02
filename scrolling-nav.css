@@ -1,0 +1,373 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+ /*************
+nmae    : Rashidur Rahman
+address : 
+e-mail  :
+version :; 
+
+**************/
+/******
+global css
+******/
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+font-family: 'Roboto', sans-serif;
+margin:0;
+
+}
+.center{
+    margin: 0 auto;
+    display: block;
+}
+a{
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/*******
+baneer section
+*******/
+.banner{
+    background:url(../images/banner.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.banner-content{
+
+    padding: 200px 0;
+}
+.banner-content h3{
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+
+}
+.banner-content h1{
+    color:#b4aa68;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 36px;
+    letter-spacing: 1px;
+    padding-bottom: 75px;
+
+}
+.exp-btn{
+        color: white;
+    background: transparent;
+    border: 1px solid #999578;
+    padding: 10px 52px;
+    border-radius: 0;
+    font-size: 11px;
+    font-weight: 300;
+}
+.exp-btn:hover{
+    background-color:yellow;
+    color:black;
+    cursor: pointer;
+
+}
+.fa-angle-down{
+    color: white;
+    font-weight: 300;
+    padding-top: 25px;
+}
+
+
+/*******
+navigation menu
+*******/
+
+.navigation-menu{
+    padding: 0;
+    
+}
+.chart ul {
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.chart ul li{
+    display: inline;
+    list-style: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px 10px 10px 25px;
+    color: gray;
+}
+.chart ul li:hover{
+    color: black;
+     border: 4px solid #fff7aa;
+}
+
+/*******
+about us
+*******/
+
+.about{
+    padding: 70px 0;
+
+}
+.about h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    color:black;
+    padding-bottom: 15px;
+    font-weight: 300;
+}
+.about h4{
+    color: #fff494;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-bottom: 55px;
+
+}
+.about h3{
+    color:black;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.about h3 span{
+    color: #fff38e;
+    font-size: 25px;
+    font-weight: 400;
+    border-right: 2px solid #fff38e;
+}
+.about p{
+    color: gray;
+    font-weight: 300;
+    font-size: 15px;
+    padding: 20px 20px;
+}
+
+/******
+random
+*******/
+.random{
+    background-color: yellow;
+    padding: 170px 30px;
+
+}
+.random h2{
+    color: black;
+    font-weight: 300;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.random p{
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+/*******
+portfolio
+*******/
+.portfolio{
+    padding: 75px 0;
+}
+.portfolio h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 300;
+    color: black;
+}
+.portfolio p{
+    color: #fff392;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+.portfolio img{
+    max-width: 270px;
+}
+.portfolio-img:hover{
+    transform: scale(1.2,1.2);
+    transition: all 0.5s ease-in-out;
+}
+.gallery{
+    max-width: 25%;
+    overflow: hidden;
+    position: relative;
+}
+.port-1{
+  padding-top: 70px;
+}
+.port-12{
+    padding-top: 30px;
+}
+.port-13{
+   padding-top: 30px;
+}
+.info{
+    margin-top: 60px;
+}
+.portfolio .fa{
+    color: black;
+    margin-top: -37px;
+}
+
+
+/*******
+client
+*******/
+
+.clients{
+    background-color: #424245;
+    padding: 70px;
+}
+.clients h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 300;
+}
+.clients p{
+    color: #cfbc16;
+    font-size: 15px;
+    font-weight: 500;
+}
+.logo-sec{
+    padding: 70px 0 20px;
+}
+.logo-sec img:hover{
+    transform: scale(1.5,1.5);
+    transition: all 0.5s ease-in-out;
+}
+/*******
+contact
+*******/
+.contact{
+    padding: 70px 0;
+}
+.contact h1{
+    text-transform: uppercase;
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+}
+.contact p{
+    color: #fff5b4;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 17px;
+}
+.contact .contact-form{
+    padding-top: 60px;
+}
+
+.contact-info{
+        color: #ffffff;
+    background-color: #ffe600;
+    padding: 10px 15px;
+    width: 100%;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+.subject-info{
+    background-color: #ffe600;
+    width: 100%;
+    border: none;
+    margin-top: 15px;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.contact .btn-default {
+    color: #e9d202;
+    background-color: black;
+    width: 100%;
+    margin: 10px 0;
+    font-size: 16px;
+    padding: 10px 0;
+    border-radius: 0;
+}
+.contact .btn-default:hover{
+    background-color: green;
+    color: yellow;
+
+} 
+/*******
+footer
+*******/
+footer{
+    background-color: black;
+    padding:20px;
+}
+
+footer h4{
+    color: #af9e08;
+    font-size: 12px;
+    font-weight: 600;
+
+
+}
+.social-media{
+    text-align: right;
+}
+footer ul li{
+    display: inline;
+    list-style: none;
+    padding-right: 25px;
+    color: white;
+}
+.fa-facebook:hover{
+    color: blue;
+    transform. scale:(5,5); 
+}
+.fa-twitter:hover{
+color: skyblue;
+
+}
+.fa-linkedin:hover{
+color: blue;
+}
+.fa-google-plus:hover{
+color: yellow;
+}
+.fa-youtube:hover{
+color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
